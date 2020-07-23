@@ -1,7 +1,7 @@
 'use strict';
 
+/*
 let ctx;
-
 // chceck if canvas is supported by browser
 
 function checkSupported() {
@@ -19,6 +19,10 @@ function checkSupported() {
 }
 
 window.onload = checkSupported();
+*/
+
+const canvas = document.querySelector('canvas');
+const ctx = canvas.getContext('2d');
 
 const groundImg = new Image();
 groundImg.src = './img/background.png';
