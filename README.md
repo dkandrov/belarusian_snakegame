@@ -1,1 +1,1 @@
-# snakegame
+Snake game, Belarusian style. 
